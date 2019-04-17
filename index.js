@@ -1,5 +1,5 @@
-import context from './context'
-import extension from './extension'
-import orpheusConfig from './orpheus'
+var context = require('./context');
+var extension = require('./extension');
+var config = require('./orpheus');
 
-module.exports = {context, extension, orpheusConfig};
+module.exports = { context, extension, config };

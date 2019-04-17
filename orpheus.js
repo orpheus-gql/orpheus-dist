@@ -12,8 +12,8 @@ const renderOrpheusGQL = (port, endpoint) => {
 
 <body>
   <div id="root"></div>
-  <script>const __gqlport = ${port}; const __gqlendpoint = ${endpoint}</script>
-  <script src="https://s3-us-west-1.amazonaws.com/ogql-dist/bundle2.js"></script>
+  <script>const __gqlport = ${port}; const __gqlendpoint = ${JSON.stringify(endpoint)}</script>
+  <script src="https://s3-us-west-1.amazonaws.com/ogql-dist/bundle3.js"></script>
 </body>
 
 </html>`

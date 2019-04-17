@@ -1,5 +1,5 @@
-import Context from './context'
-import Extension from './extension'
-import Orpheus from './orpheus'
+import context from './context'
+import extension from './extension'
+import orpheusConfig from './orpheus'
 
-module.exports = {Context, Extension, Orpheus};
+module.exports = {context, extension, orpheusConfig};

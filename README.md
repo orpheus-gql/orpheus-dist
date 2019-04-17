@@ -1,6 +1,6 @@
 # orpheus-dist
 
-## installation
+## download
 ```
 npm i orpheus-gql
 ```

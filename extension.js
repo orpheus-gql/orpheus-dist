@@ -1,5 +1,5 @@
-const orpheusExtension = ({ context }) => {
-  const runTimeResult = Date.now() - context.startTime;
+var orpheusExtension = ({ context }) => {
+  var runTimeResult = Date.now() - context.startTime;
   return {
     runTime: runTimeResult
   }

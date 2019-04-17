@@ -1,4 +1,4 @@
-const orpheusContext = () => {
+var orpheusContext = () => {
   return {
     startTime: Date.now()
   }

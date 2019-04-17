@@ -1,8 +1,8 @@
-var orpheusExtension = ({ context }) => {
+var extension = ({ context }) => {
   var runTimeResult = Date.now() - context.startTime;
   return {
     runTime: runTimeResult
   }
 }
 
-module.exports = orpheusExtension;
+module.exports = extension;

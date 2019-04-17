@@ -1,7 +1,7 @@
-var orpheusContext = () => {
+var context = () => {
   return {
     startTime: Date.now()
   }
 }
 
-module.exports = orpheusContext;
+module.exports = context;

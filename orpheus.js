@@ -19,11 +19,11 @@ const renderOrpheusGQL = (port, endpoint) => {
 </html>`
 }
 
-const orpheusConfig = (port = 3500, endpoint = '/graphql') => {
+const config = (port = 3500, endpoint = '/graphql') => {
   return (request, response) => {
     response.set('Content-Type', 'text/html')
     response.send(renderOrpheusGQL(port, endpoint));
   }
 }
 
-module.exports = orpheusConfig;
+module.exports = config;

@@ -27,14 +27,14 @@ const renderOrpheusGQL = (uri) => {
 
 <body>
 <div id="root"></div>
-<script>const __gqluri = ${uri}</script>
-<script src="https://s3-us-west-1.amazonaws.com/ogql-dist/bundle3.js"></script>
+<script>const __gqlapi = ${JSON.stringify(uri)}</script>
+<script src="https://s3-us-west-1.amazonaws.com/ogql-dist/bundle4.js"></script>
 </body>
 
 </html>`
 }
 
-const config = (port = 3500, endpoint = '/graphql') => {
+const config = (uri) => {
   return (request, response) => {
     response.set('Content-Type', 'text/html')
     response.send(renderOrpheusGQL(uri));

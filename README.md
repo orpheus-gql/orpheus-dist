@@ -13,7 +13,7 @@ npm i orpheus-gql
 
 ``` javascript
 const orpheus = require('orpheus-gql');
-const orph = oprheus.config('http://localhost:[your-port]/[graphql endpoint]');
+const orph = orpheus.config('http://localhost:[your-port]/[graphql endpoint]');
 
 app.use('/graphql', graphqlHTTP(request=>{
     return {

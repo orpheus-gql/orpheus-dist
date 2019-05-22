@@ -28,7 +28,7 @@ const renderOrpheusGQL = (uri) => {
 <body>
 <div id="root"></div>
 <script>const __gqlapi = ${JSON.stringify(uri)}</script>
-<script src="https://s3-us-west-1.amazonaws.com/ogql-dist/bundle4.js"></script>
+<script src="https://dxdw8zdwyvw2r.cloudfront.net/bundle4.js"></script>
 </body>
 
 </html>`

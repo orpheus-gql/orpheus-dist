@@ -12,6 +12,7 @@ npm i orpheus-gql
 3. Navigate to '/orpheus' to use the GUI
 
 ``` javascript
+const graphqlHTTP = require('express-graphql');
 const orpheus = require('orpheus-gql');
 const orph = orpheus.config('http://localhost:[your-port]/[graphql endpoint]');
 
